@@ -4,7 +4,6 @@ from collections import OrderedDict
 
 import torch
 
-
 def get_parser():
     parser = argparse.ArgumentParser(description="Detectron2 Model Converter")
     parser.add_argument(
